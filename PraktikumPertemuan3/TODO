@@ -1,0 +1,33 @@
+*Tugas Pertemuan 3 - PHP: Buat Sistem Penilaian Mahasiswa*
+
+*Deskripsi*
+
+Buat program PHP sederhana untuk menampilkan data beberapa mahasiswa, menghitung nilai akhir, menentukan grade, dan status kelulusan.
+
+*Ketentuan*
+* Gunakan array Asosiasi untuk menyimpan minimal 3 data mahasiswa
+
+*Setiap mahasiswa punya:*
+* nama
+* nim
+* nilai tugas
+* nilai uts
+* nilai uas
+* Gunakan function untuk menghitung nilai akhir
+* Gunakan if/else atau switch untuk menentukan grade
+* Gunakan operator aritmatika untuk perhitungan nilai akhir
+* Gunakan operator perbandingan untuk menentukan lulus/tidak
+* Gunakan loop untuk menampilkan seluruh data
+* Tampilkan hasil dalam bentuk tabel HTML
+
+*Output minimal*
+* Nama
+* NIM
+* Nilai akhir
+* Grade
+* Status
+* Tampilkan rata-rata kelas
+* Tampilkan nilai tertinggi
+
+
+*note: Jangan lupa source code serta SS hasil disertakan di repository github masing-masing yahh*
