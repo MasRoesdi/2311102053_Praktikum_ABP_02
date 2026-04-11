@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Arapaima Gigas</title>
+</head>
+<body>
+    <div id="profil"></div>
+    <button id="data-trigger">Dapatkan data!</button>
+    <script>
+        const btn = document.getElementById("data-trigger");
+        const profil = document.getElementById("profil");
+        btn.onclick = async () => {
+            const req = await fetch('http://127.0.0.1:8000/data.php');
+            const data = await req.json();
+            
+            profil.innerHTML = `Nama: ${data.nama} | Pekerjaan: ${data.pekerjaan} | Lokasi: ${data.lokasi} | Hobi : ${data.hobi}`
+        }
+    </script>
+</body>
+</html>

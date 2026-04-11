@@ -1,0 +1,28 @@
+Tugas Modul Ajax (Untuk Laravel mingdep aja guys di gabung sama materi database skalian yah)
+
+Buat sebuah halaman web yang bisa mengambil data dari server lalu menampilkannya di halaman tanpa perlu reload.
+
+Instruksi Detail:
+1. Membuat File Server (data.php)
+Buat file PHP yang berfungsi sebagai “database sederhana”.
+Data cukup berupa array (misalnya: nama, pekerjaan, lokasi).
+Contoh data:
+
+['nama' => 'Budi', 'pekerjaan' => 'Web Developer', 'lokasi' => 'Jakarta']
+Ubah data tersebut menjadi format JSON menggunakan json_encode().
+Tampilkan hasilnya dengan echo.
+
+Jangan lupa tambahkan header:
+header('Content-Type: application/json');
+
+2. Membuat File Client (index.html)
+Buat tombol dengan teks "Tampilkan Profil".
+Siapkan tempat untuk menampilkan data, misalnya:
+<div id="hasil-profil"></div>
+3. Membuat Logika AJAX (JavaScript)
+Tambahkan event ketika tombol diklik.
+Gunakan fetch() (atau boleh pakai XMLHttpRequest / jQuery AJAX) untuk mengambil data dari data.php.
+Ambil hasil response dalam bentuk JSON.
+
+Tampilkan data tersebut ke dalam <div id="hasil-profil"> dengan format:
+Nama: Budi | Pekerjaan: Web Developer | Lokasi: Jakarta
