@@ -1,0 +1,12 @@
+Buat project menggunakan Laravel dimana kalian diminta untuk :
+- Buat web inventari toko punya pak Cokomi sama mas Wowo
+- Dimana terdapat sebuah crud untuk mengelola produk
+- Tampilan seperti data table, form create, form edit, dan konfirmasi modal untuk delete
+- Data disimpan dalam database, gunakan database factory dan seeder (biar datanya ga kosong banget)
+- Buat nilai plus tambahkan dokumentasi project nya (bawaan ai juga udah ada pasti)
+- Please wok bantuin biar mas Cokomi bisa belanja di toko nya mas Wowo
+- jangan lupa terapin sistem login yaa (pake breeze)
+
+Pengumpulan Sama Seperti Pertemuan Sebelumnya.
+Kirim link repository saja (public)
+Jangan lupa dokumentasi project (ss) saat program di jalankan
